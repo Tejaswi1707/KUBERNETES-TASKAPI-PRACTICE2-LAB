@@ -8,7 +8,7 @@ pipeline {
             steps {
                 dir('frontend-reactapp') {
                     bat 'npm install'
-                    bat 'npm run build'
+                    bat 'npm run build' 
                 }
             }
         }
