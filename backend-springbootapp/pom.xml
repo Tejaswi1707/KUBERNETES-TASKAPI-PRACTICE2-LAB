@@ -11,7 +11,7 @@
 	<groupId>com.klef</groupId>
 	<artifactId>backend-springbootapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	
 	<name>backend-springbootapp</name>
 	<description>Spring Boot Backend Project</description>
 	<url/>
@@ -61,10 +61,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.6.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
-	<finalName>2300030796-backend</finalName>
+	
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
